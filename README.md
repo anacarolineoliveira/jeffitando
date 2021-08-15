@@ -1,5 +1,4 @@
-###  <center>Olá 👋, eu sou Jefferson Douglas
-</center>
+###  Olá 👋, eu sou Jefferson Douglas.
 
 ##
 

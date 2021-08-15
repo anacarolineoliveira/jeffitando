@@ -27,3 +27,12 @@
   <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
   <img align="right" alt="Rafa-yoda" src="https://thumbs.gfycat.com/ImpracticalDeadlyEstuarinecrocodile-size_restricted.gif">
 </div>
+
+##
+
+ 
+<div>
+ 
+  ![Snake animation](https://github.com/jeffitando/jeffitando/blob/output/github-contribution-grid-snake.svg)
+ 
+</div>

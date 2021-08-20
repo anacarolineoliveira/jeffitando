@@ -1,38 +1,34 @@
-###  <h1 align="center">Olá 👋, eu sou Jefferson Douglas.</h1>
-
-##
-
-- 📚 Cursando Análise e desenvolvimento de sistemas.
-- 🚩 São Paulo - SP.
-
-##
-
-<div>
-  <a href="https://github.com/jeffitando">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jeffitando&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeffitando&layout=compact&langs_count=7&theme=dark"/>
-</div>
-
-</div>
-<div style="display: inline_block"><br>
-  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="right" alt="Rafa-yoda" src="https://thumbs.gfycat.com/ImpracticalDeadlyEstuarinecrocodile-size_restricted.gif" width="205" height="205">
-</div>
-
-##
-
-
-### Contate-me através: 
  
-<div> 
-  <a href="https://instagram.com/jeffitando" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:jeffitando@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/jefferson-douglas-9840b6a9" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
- 
- 
-  ![Snake animation](https://github.com/jeffitando/jeffitando/blob/output/github-contribution-grid-snake.svg)
- 
-</div>
+using System ; 
+using System.Collections.Generic ;
+Using System.Linq ; 
+Using System.Text ; 
+Using System.Threading.Tasks 
+
+namespace ; ConsoleApplication1
+
+{
+
+ Classe program
+ {
+    static void Main(string[] args)
+    {//Início
+        Console.BackgroundColor = ConsoleColor.Yellow;
+        Console.Clear();
+        Console.ForegroundColor = ConsoleColor.Black;
+        double nota1, nota2, nota3, media;
+        Console.WriteLine("Cálculo da Média do Aluno\n");
+        Console.Write("Digite a 1ª nota: ");
+        nota1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Digite a 2ª nota: ");
+        nota2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Digite a 3ª nota: ");
+        nota3 = Convert.ToDouble(Console.ReadLine());
+        media = (nota1 + nota2 + nota3) / 3;
+        Console.WriteLine("\nMédia: " + media);
+        Console.WriteLine("\nPressione ENTER para Finalizar ...");
+        Console.ReadKey();
+      }//Fim
+   }
+}
+
